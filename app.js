@@ -5,7 +5,7 @@ const exphbs = require('express-handlebars');
 const Todo = require('./models/todo')
 const bodyParser = require('body-parser')
 const app = express()
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URI1, { useNewUrlParser: true, useUnifiedTopology: true })
 
 // get mongoose connection status
 const db = mongoose.connection
